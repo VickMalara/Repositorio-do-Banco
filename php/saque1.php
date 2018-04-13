@@ -22,17 +22,19 @@
 	cabecalho();
 	menu();	
 ?>	
-		<h1>Faça seu saque:</h1>
+		<div>
+			<h1>Faça seu saque:</h1>
 
-		<form action="saque2.php" method="post">
-		
-			<label> Quantia: R$ </label>
-			<input type = "number" name = "valor" id = "valor" step = "0.01" min = "0.01" /><br />
+			<form action="saque2.php" method="post">
 			
-			<input type = "submit" value = "Enviar" id = "enviar"/>
-			<input type = "reset" value = "Limpar" id = "limpar" />
-		
-		</form>
+				<label> Quantia: R$ </label>
+				<input type = "number" name = "valor" id = "valor" step = "0.01" min = "0.01" /><br />
+				
+				<input type = "submit" value = "Enviar" id = "enviar"/>
+				<input type = "reset" value = "Limpar" id = "limpar" />
+			
+			</form>
+		</div>
 	
 <?php
 	rodape();	

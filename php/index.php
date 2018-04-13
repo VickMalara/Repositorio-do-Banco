@@ -5,7 +5,7 @@
 	<head>
 	
 		<meta charset="UTF-8" />
-		<title> Bem-vindo! </title>
+		<title> Bem-vinda! </title>
 		<link href="../css/css.css" type="text/css" rel="stylesheet" />
 	
 	</head>
@@ -18,14 +18,14 @@
 		menu();	
 ?>
 		
-		<h1 class="principal"> 
+		<h1 class="index"> 
 			
 				<?php 
 				
 					if(isset ($_SESSION["nome"])){
 					
 				?>
-						Bem-vindo(a),
+						Bem-vinda(o)
 				<?php
 						$nome = $_SESSION["nome"];
 					
@@ -34,10 +34,10 @@
 					
 					else{
 				?>
-					Bem-vindo(a)
+					Bem-vinda(o)
 				<?php
 					}
-				?>! 
+				?>
 				
 		</h1>
 		

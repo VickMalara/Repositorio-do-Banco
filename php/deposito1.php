@@ -10,7 +10,7 @@
 	
 	</head>
 	
-	<body class="deposito">
+	<body>
 	
 <?php
 	include "../inc/principal.inc";		
@@ -22,18 +22,19 @@
 	cabecalho();
 	menu();	
 ?>	
-		<h1>Deposite aqui:</h1>
+		<div>
+			<h1>Deposite aqui:</h1>
 		
 		<form action="deposito2.php" method="post">
 		
-			<label> Quantia: </label>
+			<label> Quantia: R$ </label>
 			<input type = "number" name = "saldo" id = "saldo" step = "0.01" min = "0.01" /><br />
 			
 			<input type = "submit" value = "Enviar" id = "enviar"/>
 			<input type = "reset" value = "Limpar" id = "limpar" />
 		
 		</form>
-	
+		</div>
 <?php
 	rodape();	
 ?>

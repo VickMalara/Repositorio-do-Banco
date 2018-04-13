@@ -10,7 +10,7 @@
 	
 	</head>
 	
-	<body class = "deposito">
+	<body>
 	
 <?php
 	include "../inc/principal.inc";		
@@ -22,20 +22,22 @@
 	cabecalho();
 	menu();	
 ?>	
+		<div>
 		<h1>Faça sua transferência: </h1>
-		
-		<form action="transferencia2.php" method="post">
-		
-			<label> Conta recebedora: </label>
-			<input type = "text" name = "conta" id = "conta" /><br />
-		
-			<label> Quantia: R$ </label>
-			<input type = "number" name = "valor" id = "valor" step = "0.01" min = "0.01" /><br />
 			
-			<input type = "submit" value = "Enviar" id = "enviar"/>
-			<input type = "reset" value = "Limpar" id = "limpar" />
-		
-		</form>
+			<form action="transferencia2.php" method="post">
+			
+				<label> Conta recebedora: </label>
+				<input type = "text" name = "conta" id = "conta" /><br />
+			
+				<label> Quantia: R$ </label>
+				<input type = "number" name = "valor" id = "valor" step = "0.01" min = "0.01" /><br />
+				
+				<input type = "submit" value = "Enviar" id = "enviar"/>
+				<input type = "reset" value = "Limpar" id = "limpar" />
+			
+			</form>
+		</div>	
 	
 <?php
 	rodape();	
