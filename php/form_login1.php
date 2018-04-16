@@ -17,7 +17,7 @@
 		cabecalho();
 		menu();			
 ?>
-			<div>
+			<div class="form">
 				<h1>Entre!</h1>
 			
 				<legend id="msg">Entre com seus dados</legend>

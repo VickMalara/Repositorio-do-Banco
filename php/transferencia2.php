@@ -32,7 +32,7 @@
 						
 						$nomeXml = $p->nome;
 						$senhaXml = $p->senha;
-						$saldoXml = $p->saldo;
+						$saldoXml = (int)($p->saldo);
 						
 						if(($nomeXml == $nome) && ($senhaXml == $senha)){
 							if($saldoXml < $valor){
@@ -40,6 +40,7 @@
 							}
 							else{
 								$p->saldo = $saldoXml - $valor;
+								$_SESSION["saldo"] = $saldoXml - $valor;
 							}
 						}
 					}
@@ -55,7 +56,7 @@
 					}
 					
 					file_put_contents("../xml/clientes.xml",$xml-> asXML());
-					echo "<br />Transferencia concluida com sucesso!";
+					header("Location:index.php");
 				}
 			}
 			else{

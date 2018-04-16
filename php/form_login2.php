@@ -16,17 +16,24 @@
 				
 				$nomeXml = $c->nome;
 				$senhaXml = $c->senha;
+				$saldoXml = (string)($c->saldo);
+				
 				
 				if( ($nomeXml == $nome) && ($senhaXml == $senha) ){
 					
 					$_SESSION["nome"] = $nome;
 					$_SESSION["senha"] = $senha;
+					$_SESSION["saldo"] = $saldoXml;
 					
 					$achou = 1;
 					
 					header("Location:index.php");
 					
 				}
+				
+				echo"<p>$nomeXml</p>";
+				echo"<p>$senhaXml</p>";
+				echo"<p>$saldoXml</p>";
 				
 			}
 			

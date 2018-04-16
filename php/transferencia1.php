@@ -22,7 +22,7 @@
 	cabecalho();
 	menu();	
 ?>	
-		<div>
+		<div class="form">
 		<h1>Faça sua transferência: </h1>
 			
 			<form action="transferencia2.php" method="post">

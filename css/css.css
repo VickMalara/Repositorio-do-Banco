@@ -1,36 +1,69 @@
-
+*{
+	padding:0;
+	margin:0;
+}
 body{
 
 	margin-left: 0;
 	padding-bottom: 124px;
+	background-color: rgb(302,142,137);
 
+}
+
+div{
+	box-sizing:border-box;
 }
 
 div.link{
-	border: 1px solid black;
-	height: 20px;
-	display: block;
-	margin: 10px auto;
-	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
+	width:100%;
+	height: 50px;
+	line-height:50px;
+	display: flex;
+	justify-content:center;
+	margin:0 auto 10px auto;
 	text-align: center;
-	padding: 10px;
-	background-color: rgb(228,224,226);
-	border-radius: 5px;
+	background-color: rgba(0,0,0, 0.5);
 	font-family: courier;
 	font-size: 15px;
-	color: black;
+	
 }
 
-p.header{
-	width: 400px;
-	height: 50px;
-	display: block;
-	text-align: center;
-	padding: 5px;
-	font-family: courier;
-	font-size: 29px;
-	font-weight: bolder;
+div.link p{
+	width:20%;
+	margin:0;
+	color:white;
+	transition:background-color 0.2s;
+}
+
+div.link p:hover{
+	background-color:rgba(0,0,0,0.6);
+}
+
+div p#saldo{
+	font-size:1.5em;
+	color:rgb(302,142,137);
+	font-weight:bolder;
+}
+
+div.link p a{
+	font-size:1.3em;
+	text-decoration:none;
 	color: white;
+}
+header{
+	width:100%;
+}
+p.header{
+	width: 100%;
+	height: 100px;
+	line-height:100px;
+	display: block;
+	background-color:white;
+	text-align: center;
+	font-family: courier;
+	font-size: 3em;
+	font-weight: bolder;
+	color: rgb(302,142,137);
 }
 
 h1.index{
@@ -45,13 +78,12 @@ h1.index{
 	color: white;
 }
 
-div{
-	border: 1px solid black;
-	width: 600px;
+div.form{
+	width: 50%;
 	height: 310px;
 	display: block;
 	margin: 50px auto;
-	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
+	box-shadow: 0px 0px 10px 5px rgb(150,150,150);
 	text-align: center;
 	padding: 10px;
 	background-color: rgb(228,224,226);
@@ -59,7 +91,7 @@ div{
 	font-family: courier;
 	font-size: 15px;
 	color: black;
-}
+}*/
 
 .autentica{
 	border: 1px solid rgb (228,224,226);
@@ -107,13 +139,6 @@ div{
 	font-family: arial;
 	font-size: 15px;
 	color: black;
-}
-
-header{
-    padding: 1em;
-    color: white;
-    clear: left;
-    text-align: center;
 }
 
 .menu{
@@ -164,6 +189,8 @@ div h1{
 	padding: 5px;
 }
 
+
+
 input{
 	border: 1px solid rgb(159,160,170);
 	padding: 5px;
@@ -189,9 +216,6 @@ input[type = submit]{
 input[type = reset]{
 	background-color: rgb(244,91,115);
 }
-body{
-	background-color: rgb(302,142,137);
-}
 
 footer{
 
@@ -199,12 +223,12 @@ footer{
 	font-weight: bold;
 	bottom: 0;
 	background-color: rgba(400,150,24,0.4);
-	max-height: 250px;
+	height: 50px;
 	width: 100%;
 	text-align: center;
 	margin-left: 0;
 	color: white;
 	position: fixed;
-	bottom: 20px;
+	bottom: 0px;
 
 }

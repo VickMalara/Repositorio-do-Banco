@@ -22,7 +22,7 @@
 	cabecalho();
 	menu();	
 ?>	
-		<div>
+		<div class="form">
 			<h1>Deposite aqui:</h1>
 		
 		<form action="deposito2.php" method="post">

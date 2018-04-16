@@ -22,7 +22,7 @@
 	cabecalho();
 	menu();	
 ?>	
-		<div>
+		<div class="form">
 			<h1>Faça seu saque:</h1>
 
 			<form action="saque2.php" method="post">

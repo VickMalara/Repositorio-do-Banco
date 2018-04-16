@@ -25,18 +25,19 @@
 					if(isset ($_SESSION["nome"])){
 					
 				?>
-						Bem-vinda(o)
+						Bem-vinda(o),
 				<?php
 						$nome = $_SESSION["nome"];
 					
-						echo $nome;
+						echo $nome .'!';
 					}
 					
 					else{
 				?>
-					Bem-vinda(o)
+					Bem-vinda(o)!
 				<?php
 					}
+
 				?>
 				
 		</h1>

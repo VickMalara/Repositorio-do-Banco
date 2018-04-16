@@ -32,16 +32,18 @@
 							
 							$nomeXml = $c->nome;
 							$senhaXml = $c->senha;
+							$saldoXml = (int)($c->saldo);
 							
 						if( ($nomeXml == $nome) && ($senhaXml == $senha) ){
 						
-							$c->saldo = $c->saldo + $saldo;
+							$c->saldo = $saldoXml + $saldo;
+							$_SESSION["saldo"] = $saldoXml + $saldo;
 		
 						}
 					}
 					
 					file_put_contents("../xml/clientes.xml",$xml-> asXML());
-					echo "<br />Depósito efetuado com sucesso!";
+					header("Location:index.php");
 			}
 		}
 		
