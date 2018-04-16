@@ -8,7 +8,7 @@
 		<link href="../css/css.css" type="text/css" rel="stylesheet" />
 	</head>
  
-	<body>
+	<body class="action">
 <?php
 
 	include "../inc/principal.inc";
@@ -19,8 +19,8 @@
 			
 ?>
 		
-		<h1>Esse nome de usuário já existe!</h1>
-		<a href="form_cadastro1.php">Escolha outro!</a>
+		<h2>Esse nome de usuário já existe!</h2>
+		<h3><a href="form_cadastro1.php">Escolha outro!</a></h3>
  
 <?php
 

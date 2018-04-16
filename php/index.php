@@ -5,7 +5,7 @@
 	<head>
 	
 		<meta charset="UTF-8" />
-		<title> Bem-vinda! </title>
+		<title> Bem-vind@ </title>
 		<link href="../css/css.css" type="text/css" rel="stylesheet" />
 	
 	</head>
@@ -25,7 +25,7 @@
 					if(isset ($_SESSION["nome"])){
 					
 				?>
-						Bem-vinda(o),
+						Bem-vinda(o)
 				<?php
 						$nome = $_SESSION["nome"];
 					
@@ -34,7 +34,7 @@
 					
 					else{
 				?>
-					Bem-vinda(o)!
+					Bem-vinda(o)
 				<?php
 					}
 

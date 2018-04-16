@@ -24,6 +24,7 @@
 	<div class="form">
 		<h1>Cadastre-se</h1>
 		
+			</br>
 			<legend id="msg">Preencha o formulário de cadastro!</legend>
 			
 			<form action="form_cadastro2.php" method="post">

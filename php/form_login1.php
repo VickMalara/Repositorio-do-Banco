@@ -19,7 +19,8 @@
 ?>
 			<div class="form">
 				<h1>Entre!</h1>
-			
+				
+				</br>
 				<legend id="msg">Entre com seus dados</legend>
 				
 				<form action="form_login2.php" method="post">

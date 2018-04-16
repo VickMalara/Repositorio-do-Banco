@@ -10,6 +10,13 @@ body{
 
 }
 
+.action{
+	text-align: center;
+	color: white;
+	font-family: courier;
+	font-weight: bold;
+}
+
 div{
 	box-sizing:border-box;
 }
@@ -80,7 +87,7 @@ h1.index{
 
 div.form{
 	width: 50%;
-	height: 310px;
+	height: 250px;
 	display: block;
 	margin: 50px auto;
 	box-shadow: 0px 0px 10px 5px rgb(150,150,150);
@@ -91,55 +98,9 @@ div.form{
 	font-family: courier;
 	font-size: 15px;
 	color: black;
-}*/
-
-.autentica{
-	border: 1px solid rgb (228,224,226);
-	width: 250px;
-	height: 120px;
-	display: block;
-	margin: 150px auto;
-	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
-	text-align: center;
-	padding: 10px;
-	background-color: rgb(228,224,226);
-	border-radius: 5px;
-	font-family: arial;
-	font-size: 15px;
-	color: black;
+	font-weight: bold;
 }
 
-.trans2{
-	border: 1px solid rgb (228,224,226);
-	width: 250px;
-	height: 200px;
-	display: block;
-	margin: 150px auto;
-	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
-	text-align: center;
-	padding: 10px;
-	background-color: rgb(228,224,226);
-	border-radius: 5px;
-	font-family: arial;
-	font-size: 15px;
-	color: black;
-}
-
-.dep{
-	border: 1px solid rgb (228,224,226);
-	width: 250px;
-	height: 200px;
-	display: block;
-	margin: 150px auto;
-	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
-	text-align: center;
-	padding: 10px;
-	background-color: rgb(228,224,226);
-	border-radius: 5px;
-	font-family: arial;
-	font-size: 15px;
-	color: black;
-}
 
 .menu{
 	border: 1px solid rgb(159,160,170);
@@ -152,21 +113,6 @@ div.form{
 	margin: auto;
 }
 
-.trans{
-	border: 1px solid rgb (228,224,226);
-	width: 290px;
-	height: 380px;
-	display: block;
-	margin: 150px auto;
-	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
-	text-align: center;
-	padding: 10px;
-	background-color: rgb(228,224,226);
-	border-radius: 5px;
-	font-family: arial;
-	font-size: 15px;
-	color: black;
-}
 
 nav {
     border: 1px solid rgb(159,160,170);
@@ -221,9 +167,8 @@ footer{
 
 	font-family: Courier;
 	font-weight: bold;
-	bottom: 0;
 	background-color: rgba(400,150,24,0.4);
-	height: 50px;
+	height: 70px;
 	width: 100%;
 	text-align: center;
 	margin-left: 0;

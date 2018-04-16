@@ -26,7 +26,8 @@
 			<h1>Faça seu saque:</h1>
 
 			<form action="saque2.php" method="post">
-			
+				
+				</br></br>
 				<label> Quantia: R$ </label>
 				<input type = "number" name = "valor" id = "valor" step = "0.01" min = "0.01" /><br />
 				

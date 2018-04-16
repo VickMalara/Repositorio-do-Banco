@@ -10,7 +10,7 @@
 	
 	</head>
 	
-	<body>
+	<body class="action">
 	
 		<?php 
 		
@@ -43,7 +43,8 @@
 					}
 					
 					file_put_contents("../xml/clientes.xml",$xml-> asXML());
-					header("Location:index.php");
+					echo "</br><h2>Depósito efetuado com sucesso!</h2>";
+					
 			}
 		}
 		

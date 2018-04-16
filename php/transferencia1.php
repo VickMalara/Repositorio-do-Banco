@@ -26,7 +26,8 @@
 		<h1>Faça sua transferência: </h1>
 			
 			<form action="transferencia2.php" method="post">
-			
+				
+				<br/>
 				<label> Conta recebedora: </label>
 				<input type = "text" name = "conta" id = "conta" /><br />
 			

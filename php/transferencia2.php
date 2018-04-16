@@ -10,7 +10,7 @@
 	
 	</head>
 	
-	<body>
+	<body class="action">
 		<?php
 		
 			include "../inc/principal.inc";
@@ -56,7 +56,8 @@
 					}
 					
 					file_put_contents("../xml/clientes.xml",$xml-> asXML());
-					header("Location:index.php");
+					echo "</br><h2>Transferência efetuada com sucesso!</h2>";
+		
 				}
 			}
 			else{
